@@ -1,0 +1,15 @@
+{
+  "name": "ShouldIt-Example",
+  "version": "1.0.0",
+  "description": "Should It-Example",
+  "dependencies": {
+    "karma": "=0.10.10",
+    "karma-spec-json-reporter ": "~0.0.7",
+    "spec-detective": "~0.0.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^0.7.0"
+  }
+}
