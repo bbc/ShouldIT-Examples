@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "Should It-Example",
   "dependencies": {
-    "karma": "=0.10.10",
+    "grunt-karma": "~0.8.3",
+    "karma": "~0.12.16",
+    "karma-jasmine": "~0.2.2",
+    "karma-phantomjs-launcher": "~0.1.4",
     "karma-spec-json-reporter ": "~0.0.7",
-    "spec-detective": "~0.0.5"
+    "spec-detective": "~0.0.5",
+    "xml2js": "~0.4.4"
   },
   "devDependencies": {
     "grunt": "^0.4.4",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-shell": "^0.7.0"
+  },
+  "scripts": {
+    "preinstall": "curl -sS https://getcomposer.org/installer | php && php composer.phar install",
+    "install": "grunt"
   }
 }

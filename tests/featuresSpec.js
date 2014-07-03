@@ -8,6 +8,11 @@ describe("My Feature", function() {
         expect(1).toBe(1);
     });
 
+
+    it("minght have another unfulfilled test", function () {
+        expect(0).toBeFalsy();
+    });
+
     it ("might have an unfulfilled test", function () {
         expect(1).toBe(1);
     });
