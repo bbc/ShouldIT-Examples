@@ -2,8 +2,7 @@
     "My Feature": {
         "should have a passing test": "PASSED",
         "might have a failing test": "PASSED",
-        "might have another failing test": "FAILED",
-        "My Feature might have an unfulfilled test": "FAILED",
+        "minght have another unfulfilled test": "PASSED",
         "might have an unfulfilled test": "PASSED"
     }
 }

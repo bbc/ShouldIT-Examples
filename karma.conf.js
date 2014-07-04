@@ -14,19 +14,19 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'tests/**/*Spec.js'
+      'tests/*Spec.js'
     ],
 
 
     // list of files to exclude
     exclude: [
-      
+
     ],
 
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage'
-    reporters: ['specjson'],
+    reporters: ['dots', 'progress', 'specjson'],
 
 
     // web server port
