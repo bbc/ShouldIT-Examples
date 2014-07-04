@@ -7,7 +7,7 @@ module.exports = function(grunt) {
                 options: {
                     stderr: false
                 },
-                command: './node_modules/spec-detective/bin/spec-detective "**/*feature.md" karma-specs.json'
+                command: './node_modules/spec-detective/bin/spec-detective "**/*feature.md" karma-specs.json,phpunit-test-results.xml'
             },
             phpunit: {
                 command: 'php vendor/bin/phpunit'
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         },
         watch: {
             'scripts': {
-                files: ['karma-specs.json', 'specs/**/*.md'],
+                files: ['karma-specs.json', 'specs/**/*.md', 'phpunit-test-results.xml'],
                 tasks: ['default'],
                 options: {
                     spawn: false

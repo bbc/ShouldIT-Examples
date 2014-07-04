@@ -1,3 +1,8 @@
 node_modules
 junit-output.xml
 spec-file.json
+vendor
+composer.lock
+composer.phar
+phpunit-test-results.xml
+results-file.json
