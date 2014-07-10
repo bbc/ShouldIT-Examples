@@ -1,11 +1,11 @@
-describe("My Feature", function() {
+describe("My Feature My context", function() {
 
     it ("should have a passing test", function () {
         expect(1).toBe(1);
     });
 
     it ("might have a failing test", function () {
-        expect(1).toBe(1);
+        expect(1).toBe(2);
     });
 
 
@@ -15,5 +15,6 @@ describe("My Feature", function() {
 
     it ("might have an unfulfilled test", function () {
         expect(1).toBe(1);
+
     });
 });

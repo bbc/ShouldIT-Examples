@@ -8,7 +8,7 @@
     "karma-jasmine": "~0.2.2",
     "karma-phantomjs-launcher": "~0.1.4",
     "karma-spec-json-reporter ": "~0.0.7",
-    "spec-detective": "~0.0.9",
+    "spec-detective": "~0.1.5",
     "xml2js": "~0.4.4"
   },
   "devDependencies": {
