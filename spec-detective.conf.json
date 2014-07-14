@@ -1,4 +1,4 @@
 {
     "specs": "specs/*.md",
-    "results": "karma-specs.json,phpunit-test-results.xml"
+    "results": "karma-specs.json,phpunit-test-results.xml,rspec.xml"
 }
