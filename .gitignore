@@ -6,3 +6,6 @@ composer.lock
 composer.phar
 phpunit-test-results.xml
 results-file.json
+karma-specs.json
+junit.xml
+rspec.xml

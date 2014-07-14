@@ -5,7 +5,7 @@ describe("My Feature My context", function() {
     });
 
     it ("might have a failing test", function () {
-        expect(1).toBe(2);
+        expect(2).toBe(2);
     });
 
 
