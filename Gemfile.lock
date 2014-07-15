@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/mackstar/rspec_junit_formatter.git
-  revision: 0eb0908d14fd0a75797d9e253049c9ee650d1faf
+  revision: 248d9494f41e26beb4dc81fbcd9c92f3e7746d93
   specs:
     rspec_junit_formatter (0.2.0)
       builder (< 4)
@@ -25,5 +25,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rspec (= 2.99.0)
+  rspec (= 2.99)
   rspec_junit_formatter!
