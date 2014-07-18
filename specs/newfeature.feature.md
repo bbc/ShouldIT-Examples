@@ -3,4 +3,4 @@
 
 + IT should do this
     - You may want to add
-- IT should ignore this
++ IT should ignore this

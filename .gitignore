@@ -9,3 +9,5 @@ results-file.json
 karma-specs.json
 junit.xml
 rspec.xml
+.bundle
+gems/

@@ -13,4 +13,10 @@ class PhpUnitExampleTest extends PHPUnit_Framework_TestCase
 
         $this->assertEquals(2, 2);
     }
+
+    public function testShouldBeAbleToAddThreeNumbers()
+    {
+        $this->assertEquals(2, 2);
+    }
+
 }
