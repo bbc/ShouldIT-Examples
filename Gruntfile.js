@@ -14,13 +14,13 @@ module.exports = function(grunt) {
             }
         },
         watch: {
-            'scripts': {
-                files: ['karma-specs.json', 'specs/**/*.md', 'phpunit-test-results.xml'],
-                tasks: ['default'],
-                options: {
-                    spawn: false
-                }
-            },
+            // 'scripts': {
+            //     files: ['karma-specs.json', '**/*.md', 'phpunit-test-results.xml'],
+            //     tasks: ['default'],
+            //     options: {
+            //         spawn: false
+            //     }
+            // },
             // 'jstests': {
             //     files: ['tests/*.js'],
             //     tasks: ['karma'],
