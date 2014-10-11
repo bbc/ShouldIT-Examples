@@ -4,7 +4,7 @@ describe "RSpec Example" do
     end
 end
 
-describe "Another RSpex Example" do
+describe "Another RSpec Example" do
     it "should be able to minus some other numbers" do
         expect(1-1).to eq(0)
     end

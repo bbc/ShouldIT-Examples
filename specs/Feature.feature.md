@@ -1,6 +1,8 @@
-> @feature
+> @javascript
 
 # My Feature
+
+Any text relating your feature can be added here!
 
 ## My context
 

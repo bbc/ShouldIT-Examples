@@ -7,7 +7,7 @@ module.exports = function(grunt) {
                 options: {
                     stderr: false
                 },
-                command: './node_modules/spec-detective/bin/spec-detective'
+                command: './node_modules/shouldit/bin/shouldit'
             },
             phpunit: {
                 command: 'php vendor/bin/phpunit'
