@@ -11,6 +11,8 @@ Here are a few examples to get you up and running and have a taste of ShouldIT? 
 ### Installation
 
 ```
+git clone git@github.com:bbc-sport/ShouldIT-Examples.git
+cd ShouldIT-Examples
 sudo npm install -g grunt-cli
 sudo npm install -g shouldit
 npm install
